@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- We use Linear Layout to make the calculator looked better, however we
+could use tablerow, relative layout instead but i think
+ Linear Layout is much more convenient -->
+<!-- Comment by: Vu Hoang Hiep 17110138 -->
+<!-- Day and time: 22:27 26/3/2020 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Contains TextView that show result -->
+    <!-- Comment by: Vu Hoang Hiep 17110138 -->
+    <!-- Day and time: 22:27 26/3/2020 -->
+    <RelativeLayout
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#555555"
+        android:layout_height="50dp">
+
+        <!-- TextView for the result -->
+        <!-- Comment by: Vu Hoang Hiep 17110138 -->
+        <!-- Day and time: 22:27 26/3/2020 -->
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:text="123456"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <!-- Contains the whole button -->
+    <!-- Comment by: Vu Hoang Hiep 17110138 -->
+    <!-- Day and time: 22:27 26/3/2020 -->
+    <LinearLayout
+        android:background="#545454"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <!-- Contain line of button that start with 7 -->
+        <!-- Comment by: Vu Hoang Hiep 17110138 -->
+        <!-- Day and time: 22:27 26/3/2020 -->
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
+
+            <!-- Button 7 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_7"
+                android:background="#e5e5e5"
+                android:text="7"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button 8 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_8"
+                android:background="#e5e5e5"
+                android:text="8"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button 9 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_9"
+                android:background="#e5e5e5"
+                android:text="9"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button / -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_divided"
+                android:background="#ff8600"
+                android:text="/"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+        </LinearLayout>
+
+        <!-- Contain line of button that start with 4 -->
+        <!-- Comment by: Vu Hoang Hiep 17110138 -->
+        <!-- Day and time: 22:27 26/3/2020 -->
+        <LinearLayout
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
+
+            <!-- Button 4 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_4"
+                android:background="#e5e5e5"
+                android:text="4"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button 5 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_5"
+                android:background="#e5e5e5"
+                android:text="5"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button 6 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_6"
+                android:background="#e5e5e5"
+                android:text="6"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button multiply -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_multiply"
+                android:background="#ff8600"
+                android:text="X"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+        </LinearLayout>
+
+        <!-- Contain line of button that start with 1-->
+        <!-- Comment by: Vu Hoang Hiep 17110138 -->
+        <!-- Day and time: 22:27 26/3/2020 -->
+        <LinearLayout
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
+
+            <!-- Button 1 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_1"
+                android:background="#e5e5e5"
+                android:text="1"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button 2 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_2"
+                android:background="#e5e5e5"
+                android:text="2"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button 3 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_3"
+                android:background="#e5e5e5"
+                android:text="3"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button minus -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_minus"
+                android:background="#ff8600"
+                android:text="-"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+        </LinearLayout>
+
+        <!-- Contain line of button that start with 0 -->
+        <!-- Comment by: Vu Hoang Hiep 17110138 -->
+        <!-- Day and time: 22:27 26/3/2020 -->
+        <LinearLayout
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Button 0 -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_0"
+                android:background="#e5e5e5"
+                android:text="0"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- This Linear makes sure that the sizes of these buttons are perfectly fit the requirement -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Button dot -->
+                <!-- Comment by: Vu Hoang Hiep 17110138 -->
+                <!-- Day and time: 22:27 26/3/2020 -->
+                <Button
+                    android:id="@+id/btn_dot"
+                    android:background="#e5e5e5"
+                    android:text="."
+                    android:textColor="#4E4E4E"
+                    android:layout_weight="1"
+                    android:typeface="monospace"
+                    android:layout_marginRight="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"/>
+
+                <!-- Button add -->
+                <!-- Comment by: Vu Hoang Hiep 17110138 -->
+                <!-- Day and time: 22:27 26/3/2020 -->
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="#ff8600"
+                    android:text="+"
+                    android:textColor="#4E4E4E"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Contain line of button that start with C button -->
+        <!-- Comment by: Vu Hoang Hiep 17110138 -->
+        <!-- Day and time: 22:27 26/3/2020 -->
+        <LinearLayout
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
+
+            <!-- Button C -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_C"
+                android:background="#ff8600"
+                android:text="C"
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <!-- Button result -->
+            <!-- Comment by: Vu Hoang Hiep 17110138 -->
+            <!-- Day and time: 22:27 26/3/2020 -->
+            <Button
+                android:id="@+id/btn_result"
+                android:background="#ff8600"
+                android:text="="
+                android:textColor="#4E4E4E"
+                android:layout_weight="1"
+                android:typeface="monospace"
+                android:layout_marginRight="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
