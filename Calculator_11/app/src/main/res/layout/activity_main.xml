@@ -17,13 +17,10 @@ could use tablerow, relative layout instead but i think
     <!-- Comment by: Vu Hoang Hiep 17110138 -->
     <!-- Day and time: 22:27 26/3/2020 -->
     <RelativeLayout
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:layout_width="wrap_content"
         android:gravity="center_vertical"
         android:background="#555555"
-        android:layout_height="50dp">
+        android:layout_height="130dp">
 
         <!-- TextView for the result -->
         <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -33,7 +30,7 @@ could use tablerow, relative layout instead but i think
             android:layout_marginRight="10dp"
             android:layout_alignParentEnd="true"
             android:text="123456"
-            android:textSize="30dp"
+            android:textSize="50dp"
             android:textColor="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,19 +42,18 @@ could use tablerow, relative layout instead but i think
     <!-- Day and time: 22:27 26/3/2020 -->
     <LinearLayout
         android:background="#545454"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:orientation="vertical"
+        android:gravity="bottom"
         android:layout_width="match_parent"
-        android:layout_height="300dp">
+        android:layout_height="match_parent">
 
         <!-- Contain line of button that start with 7 -->
         <!-- Comment by: Vu Hoang Hiep 17110138 -->
         <!-- Day and time: 22:27 26/3/2020 -->
         <LinearLayout
-            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="fill_parent"
             android:layout_weight="20">
 
             <!-- Button 7 -->
@@ -259,10 +255,10 @@ could use tablerow, relative layout instead but i think
         <!-- Day and time: 22:27 26/3/2020 -->
         <LinearLayout
             android:layout_marginTop="1dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="2">
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20">
 
             <!-- Button 0 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -276,7 +272,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="match_parent"/>
 
             <!-- This Linear makes sure that the sizes of these buttons are perfectly fit the requirement -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -284,7 +280,7 @@ could use tablerow, relative layout instead but i think
             <LinearLayout
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
                 <!-- Button dot -->
                 <!-- Comment by: Vu Hoang Hiep 17110138 -->
