@@ -36,7 +36,7 @@ could use tablerow, relative layout instead but i think
             android:layout_marginRight="10dp"
             android:text="123456"
             android:textColor="#FFFFFF"
-            android:textSize="@dimen/fontsizeresult"  />
+            android:textSize="@dimen/fontsizeresult" />
     </RelativeLayout>
 
     <!-- Contains the whole button -->
@@ -65,14 +65,14 @@ could use tablerow, relative layout instead but i think
             <Button
                 android:id="@+id/btn_7"
                 android:textSize="@dimen/fontsizebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
                 android:background="#e5e5e5"
                 android:text="7"
                 android:textColor="#4E4E4E"
-                android:layout_weight="1"
-                android:typeface="monospace"
-                android:layout_marginRight="1dp"
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:typeface="monospace" />
 
             <!-- Button 8 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->

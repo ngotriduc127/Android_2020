@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is dimens for xhdpi -->
+<resources>
+    <!-- This is the fontsize of the result textview -->
+    <dimen name="fontsizeresult">60dp</dimen>
+
+    <!-- This is the fontsize of the button -->
+    <dimen name="fontsizebutton">40dp</dimen>
+</resources>

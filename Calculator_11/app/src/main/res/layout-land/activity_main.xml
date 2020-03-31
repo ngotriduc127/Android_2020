@@ -36,7 +36,7 @@ could use tablerow, relative layout instead but i think
             android:layout_marginRight="10dp"
             android:text="123456"
             android:textColor="#FFFFFF"
-            android:textSize="@dimen/fontsizeresult"  />
+            android:textSize="@dimen/fontsizeresult" />
     </RelativeLayout>
 
     <!-- Contains the whole button -->
