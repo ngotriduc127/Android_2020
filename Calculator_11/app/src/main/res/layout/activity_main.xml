@@ -56,7 +56,7 @@ could use tablerow, relative layout instead but i think
         <LinearLayout
             android:layout_gravity="center_horizontal"
             android:layout_width="match_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="20">
 
             <!-- Button 7 -->
@@ -72,7 +72,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button 8 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -87,7 +87,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button 9 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -102,7 +102,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button / -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -117,7 +117,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
         </LinearLayout>
 
@@ -127,7 +127,7 @@ could use tablerow, relative layout instead but i think
         <LinearLayout
             android:layout_marginTop="1dp"
             android:gravity="center_horizontal"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="20">
 
@@ -144,7 +144,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button 5 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -159,7 +159,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button 6 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -174,7 +174,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button multiply -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -189,7 +189,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
         </LinearLayout>
 
@@ -199,7 +199,7 @@ could use tablerow, relative layout instead but i think
         <LinearLayout
             android:layout_marginTop="1dp"
             android:gravity="center_horizontal"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="20">
 
@@ -216,7 +216,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button 2 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -231,7 +231,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button 3 -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -246,7 +246,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button minus -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -261,7 +261,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
         </LinearLayout>
 
@@ -271,7 +271,7 @@ could use tablerow, relative layout instead but i think
         <LinearLayout
             android:layout_marginTop="1dp"
             android:gravity="center_horizontal"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="20">
 
@@ -311,7 +311,7 @@ could use tablerow, relative layout instead but i think
                     android:typeface="monospace"
                     android:layout_marginRight="1dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"/>
+                    android:layout_height="match_parent"/>
 
                 <!-- Button add -->
                 <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -320,7 +320,7 @@ could use tablerow, relative layout instead but i think
                     android:id="@+id/btn_add"
                     android:textSize="@dimen/fontsizebutton"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginRight="1dp"
                     android:layout_weight="1"
                     android:background="#ff8600"
@@ -336,7 +336,7 @@ could use tablerow, relative layout instead but i think
         <LinearLayout
             android:layout_marginTop="1dp"
             android:gravity="center_horizontal"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="20">
 
@@ -353,7 +353,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
 
             <!-- Button result -->
             <!-- Comment by: Vu Hoang Hiep 17110138 -->
@@ -368,7 +368,7 @@ could use tablerow, relative layout instead but i think
                 android:typeface="monospace"
                 android:layout_marginRight="1dp"
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"/>
+                android:layout_height="match_parent"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
